@@ -24,14 +24,43 @@
 <div class="container">
        <section class="section one">
         <h1 id="h1">Scroll snap 1</h1>
+        <p>
+        body, html { <br>
+          height: 100%; <br>
+        } <br>
+        <br>
+        .parent { <br>
+          overflow: scroll; <br>
+          scroll-snap-type: mandatory; <br>
+          scroll-behavior: smooth; <br>
+          height: 100vh; <br>
+          scroll-snap-points-y: repeat(100vh); <br>
+          scroll-snap-type: y mandatory; <br>
+       }
+       </p>
       </section>
 
       <section class="section two">
         <h1 id="h1">Scroll snap 2</h1>
+        <p>
+          .enfant { <br>
+            scroll-snap-align: start; <br>
+            height: 100vh; <br>
+            width: 100vw; <br>
+            display: flex; <br>
+            flex-direction: column; <br>
+            justify-content: center; <br>
+            align-items: center; <br>
+        }
+        </p>
       </section>
 
       <section class="section three">
         <h1 id="h1">Scroll snap 3</h1>
+        <p>
+          <a href=""> https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type </a><br>
+          <a href="">https://css-tricks.com/practical-css-scroll-snapping/</a>
+        </p>
       </section>
 
       <section class="section four">

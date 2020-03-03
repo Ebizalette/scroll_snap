@@ -5,7 +5,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 nav{
@@ -22,11 +22,11 @@ a{
     text-decoration: none;
     color: white;
     padding: 1%;
-    border: 1px white;
+    border: 2px white;
 }
 
 .container{
-    overflow: scroll;
+   overflow: scroll;
    scroll-snap-type: mandatory; 
    scroll-behavior: smooth;
    height: 100vh;
@@ -39,8 +39,12 @@ h1{
     color: white;
 }
 
+p{
+  text-transform: lowercase; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+} 
 .section{
-    position: relative;
+    /* position: relative; */
     scroll-snap-align: start;
     height: 100vh;
     width: 100vw;
@@ -69,3 +73,6 @@ background-color: lightgreen;
 .section.five{
     background-color: lightseagreen;   
         }    
+
+
+       

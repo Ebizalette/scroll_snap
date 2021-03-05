@@ -9,7 +9,7 @@ body, html {
 }
 
 nav{
-    color: white;
+    color: blue;
     display: flex;
     justify-content: center;
     height: 10vh;
